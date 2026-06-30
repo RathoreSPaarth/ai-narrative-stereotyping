@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── Project-specific ──────────────────────────────────────
+
+# Dataset — not ours to upload; download from Harvard Dataverse
+gpt-stories/
+
+# Generated outputs — reproducible by running the scripts
+dashboard_data/
+explorer_data/
+
+# Embedding cache — large binary file (~500MB)
+*.npz
+
+# Observable / Node
+dashboard/node_modules/
+dashboard/.observablehq/cache/
