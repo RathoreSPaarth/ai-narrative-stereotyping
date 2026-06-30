@@ -51,16 +51,3 @@ python scripts/inspect_stories.py
 ```
 Edit `COUNTRIES_TO_CHECK` inside the script. Prints the least-generic, median, and most-generic story for each selected country.
 
-## Paper
-
-`paper/main.tex` — compile with pdflatex. You will need to supply `paper/references.bib` with the BibTeX entries for the citations in the paper.
-
-## Dashboard
-
-The Observable Framework dashboard lives in `dashboard/`. To run it locally:
-```
-cd dashboard
-npm install
-npm run dev
-```
-Copy the JSON files from `explorer_data/` and `dashboard_data/` into `dashboard/src/data/` first.
