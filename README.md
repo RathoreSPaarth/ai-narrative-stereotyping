@@ -6,7 +6,7 @@ Code for the paper of the same name. Applies sentence-transformer embeddings and
 
 This repo contains no data. Download the dataset from the Harvard Dataverse:
 **Rettberg, Jill Walker & Wigers, Hermann (2025). *AI-generated stories for 236 nationalities.* Harvard Dataverse.**
-`https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XBMKZJ`
+`https://dataverse.no/file.xhtml?persistentId=doi:10.18710/VM2K4O/GEVNMF&version=1.0&toolType=PREVIEW`
 
 Unzip it so you have a folder called `gpt-stories/` with one subfolder per country code (`AD/`, `AE/`, ...), each containing six CSV files.
 
